@@ -7,35 +7,31 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  username: "Kevin Lin",
+  title: "Kevin Lin",
+  subTitle: emoji("Princeton Computer Science B.S.E. (2022) Software Engineer 🚀 experienced in Python (Django, NumPy), Java, JavaScript ES6 (React, Redux-Logic,ImmutableJS), C, R, Go, OCaml"),
+  resumeLink: "https://docs.google.com/document/d/15mzCiRitKmZJeEiUBV4XfXPe7A2ZN57hgxSKhs1QQlU/edit?usp=sharing"
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
 
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
+  github: "https://github.com/kl29",
+  linkedin: "https://www.linkedin.com/in/kevin-lin-7386ab177/",
+  gmail: "kl29@princeton.edu"
   // Instagram and Twitter are also supported in the links!
 };
 
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I do",
+  subTitle: "FULL STACK DEVELOPER",
   skills: [
     emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Data analytics with Elasticsearch (ELK stack)"),
+    emoji("⚡ API stress-testing with Apache JMeter")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -51,8 +47,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      // skillName: "sass",
+      // fontAwesomeClassname: "fab fa-sass"
     },
     {
       skillName: "JavaScript",
@@ -63,12 +59,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      // skillName: "nodejs",
+      // fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      // skillName: "swift",
+      // fontAwesomeClassname: "fab fa-swift"
     },
     {
       skillName: "npm",
@@ -78,14 +74,14 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
+    // {
+    //   skillName: "aws",
+    //   fontAwesomeClassname: "fab fa-aws"
+    // },
+    // {
+    //   skillName: "firebase",
+    //   fontAwesomeClassname: "fas fa-fire"
+    // },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
@@ -108,11 +104,11 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Data Structures and Algorithms",
+      progressPercentage: "95%"
     }
   ]
 };
@@ -124,29 +120,40 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",  
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Engineer Intern, Full Stack",  
+      company: "Fusion Systems",
+      companylogo: require("./assets/images/fs.png"),
+      date: "June 2020 – August 2020",
+      desc: "permission checking/auth for Dimare webapp, (React/ImmutableJS, Django rest_framework/OAuth2, Postgres) Dockerized ElasticStack for real-time server-log analytics (Docker, ElasticSearch, Logstash-TCP, Kibana), BigInt bitwise permission-value checking, preventing unauthorized calls to server, Built custom API for modularized permission retrieval, Wrote API-doc/stress tests for KPI webapp (using JMeter)",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Dimare.io",
+        "ElasticSearch, JMeter, Docker",
+        "Tokyo, Japan (remote)"
       ]
     },
     {
-      role: "Front-End Developer",   
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Back-End Developer, Program Manager",   
+      company: "Tigerbook",
+      companylogo: require("./assets/images/tt.png"),
+      date: "September 2020 – Present",
+      desc: "Princeton CAS-Authenticated webapp for student info. Developed web-scrapers/integrated new features.",
+      descBullets: [
+        "Dimare.io",
+        "ElasticSearch, JMeter, Docker",
+        "Princeton, NJ"
+      ]
     },
     {
-      role: "Software Engineer Intern",  
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Product Intern",  
+      company: "Saffron Ventures",
+      companylogo: require("./assets/images/sv.png"),
+      date: "Jan 2019 – Jan 2019",
+      desc: "Analyzed product performance, advised improvements to experiential-education customer experience. Researched product market for incubated companies Atlantis, Beacon, Lex.",
+      descBullets: [
+        "Market Research",
+        "Product Development",
+        "Washington, D.C."
+      ]
     },
   ]
 };
@@ -156,7 +163,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "kl29", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
 };
 
@@ -165,15 +172,15 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Companies and Products that I contributed to:",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
+      image: require("./assets/images/fusion.png"),
+      link: "https://www.fusionsystems.group/"
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
+      image: require("./assets/images/dimare.png"),
+      link: "https://www.dimare.io/"
     }
   ]
 };
@@ -183,33 +190,31 @@ const bigProjects = {
 const achievementSection = {
 
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  subtitle: "Achievements, Certifications, and Some Cool Stuff that I have done !",
 
   achivementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "Eagle Scout",
+      subtitle: "Lead Boy Scout Troop 404 as Senior Patrol Leader",
+      image: require("./assets/images/bsa.gif"),
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+        { name: "Eagle Scout", url: "https://www.scouting.org/resources/guide-to-advancement/eagle-scout-rank/"},
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
+      title: "Toastmasters International Competent Communicator Award",
+      subtitle: "Lead 40-member speech club, developed leadership and public speaking skills",
+      image: require("./assets/images/tm.jpg"),
+      footerLink: [{ name: "CC Award", url: "https://www.toastmasters.org/" }]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Carbon Nanotube Researcher",
+      subtitle: "Researched carbon nanotubes, achieved 12% solar-cell efficiency with mixed perovskite structure",
+      image: require("./assets/images/cnt.jpg"),
       footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
+        { name: "CNT wiki", url: "https://en.wikipedia.org/wiki/Carbon_nanotube" },
+        { name: "Nanotech Institute", url: "https://centers.utdallas.edu/nanotech/" }
       ]
     }
   ]
@@ -264,16 +269,16 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  subtitle: "Seeking Software Engineering Internship (Summer 2021)",
+  // number: "+92-3243454077",
+  email_address: "kl29@princeton.edu"
 };
 
 //Twitter Section
 
 const twitterDetails = {
 
-  userName : "twitter"//Replace "twitter" with your twitter username without @
+  // userName : "twitter"//Replace "twitter" with your twitter username without @
   
 };
 export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
