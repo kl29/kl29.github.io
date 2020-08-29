@@ -124,35 +124,36 @@ const workExperiences = {
       company: "Fusion Systems",
       companylogo: require("./assets/images/fs.png"),
       date: "June 2020 – August 2020",
-      desc: "permission checking/auth for Dimare webapp, (React/ImmutableJS, Django rest_framework/OAuth2, Postgres) Dockerized ElasticStack for real-time server-log analytics (Docker, ElasticSearch, Logstash-TCP, Kibana), BigInt bitwise permission-value checking, preventing unauthorized calls to server, Built custom API for modularized permission retrieval, Wrote API-doc/stress tests for KPI webapp (using JMeter)",
+      desc: "permission checking/auth for Dimare webapp, (React/ImmutableJS, Django rest_framework/OAuth2, Postgres) Dockerized ElasticStack for real-time server-log analytics (Docker, ElasticSearch, Logstash-TCP, Kibana), BigInt bitwise permission-value checking, preventing unauthorized calls to server, Built custom API for modularized permission retrieval, Wrote API-doc/stress tests for KPI webapp (using JMeter).",
       descBullets: [
         "Dimare.io",
         "ElasticSearch, JMeter, Docker",
-        "Tokyo, Japan (remote)"
+        "@Tokyo, Japan (remote)"
       ]
     },
     {
-      role: "Back-End Developer, Program Manager",   
-      company: "Tigerbook",
-      companylogo: require("./assets/images/tt.png"),
+      role: "Full Stack Technical Lead, Back-End Developer",   
+      company: "TigerMatch, Tigerbook",
+      companylogo: require("./assets/images/ppt.jpg"),
       date: "September 2020 – Present",
-      desc: "Princeton CAS-Authenticated webapp for student info. Developed web-scrapers/integrated new features.",
+      desc: "Tigermatch: Princeton CAS-Authenticated webapp for student dating/relationships. Tigerbook: student directory, developed web-scrapers/integrated new features, maintained legacy codebase.",
       descBullets: [
-        "Dimare.io",
-        "ElasticSearch, JMeter, Docker",
-        "Princeton, NJ"
+        "Web Scraping",
+        "Princeton OIT API",
+        "CAS Authentication",
+        "@Princeton, NJ"
       ]
     },
     {
       role: "Product Intern",  
       company: "Saffron Ventures",
-      companylogo: require("./assets/images/sv.png"),
+      companylogo: require("./assets/images/ssss.png"),
       date: "Jan 2019 – Jan 2019",
       desc: "Analyzed product performance, advised improvements to experiential-education customer experience. Researched product market for incubated companies Atlantis, Beacon, Lex.",
       descBullets: [
         "Market Research",
         "Product Development",
-        "Washington, D.C."
+        "@Washington, D.C."
       ]
     },
   ]
@@ -171,8 +172,8 @@ const openSource = {
 // Some Big Projects You have worked with your company
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "Companies and Products that I contributed to:",
+  title: "Software Projects",
+  subtitle: "Companies, Products, Projects that I contributed to:",
   projects: [
     {
       image: require("./assets/images/fusion.png"),
@@ -181,7 +182,23 @@ const bigProjects = {
     {
       image: require("./assets/images/dimare.png"),
       link: "https://www.dimare.io/"
-    }
+    },
+    {
+      image: require("./assets/images/dj.png"),
+      link: "https://github.com/kl29/apiserver_oauth_and_rest_framework"
+    },
+    {
+      image: require("./assets/images/gre.png"),
+      link: "https://github.com/kl29/NextLevel-Labs-MVP-site-front-end"
+    },
+    {
+      image: require("./assets/images/mnist.png"),
+      link: "https://colab.research.google.com/drive/1SUabAEJhw7eaXeG3UwSXSoFgV2aNHDSp?usp=sharing"
+    },
+    {
+      image: require("./assets/images/svd.png"),
+      link: "https://colab.research.google.com/drive/1pbkeLKSF79zZbsDsoQSZy5H9aUeqLM9I?usp=sharing"
+    },
   ]
 };
 
@@ -195,8 +212,8 @@ const achievementSection = {
   achivementsCards: [
     {
       title: "Eagle Scout",
-      subtitle: "Lead Boy Scout Troop 404 as Senior Patrol Leader",
-      image: require("./assets/images/bsa.gif"),
+      subtitle: "Lead Boy Scout Troop 404 as Senior Patrol Leader, lead community renovation service project",
+      image: require("./assets/images/ea.png"),
       footerLink: [
         { name: "Eagle Scout", url: "https://www.scouting.org/resources/guide-to-advancement/eagle-scout-rank/"},
       ]
