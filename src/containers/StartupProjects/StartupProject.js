@@ -8,6 +8,10 @@ export default function StartupProject() {
     var win = window.open(url, "_blank");
     win.focus();
   }
+  // function caption(text) {
+  //   const cap = <div><p>text</p><br></br></div>
+  //   return cap
+  // }
 
   return (
     <Fade bottom duration={1000} distance="20px">
@@ -20,7 +24,10 @@ export default function StartupProject() {
             {bigProjects.projects.map(project => {
               return (
                 <div className="saaya-health-div" onClick={() => openProjectInNewWindow(project.link)}>
+                  <ul>
                   <img alt="Saad Working" src={project.image}></img>
+                  {project.text}
+                  </ul>
                 </div>
               );
             })}

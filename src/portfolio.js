@@ -127,7 +127,7 @@ const workExperiences = {
       desc: "permission checking/auth for Dimare webapp, (React/ImmutableJS, Django rest_framework/OAuth2, Postgres) Dockerized ElasticStack for real-time server-log analytics (Docker, ElasticSearch, Logstash-TCP, Kibana), BigInt bitwise permission-value checking, preventing unauthorized calls to server, Built custom API for modularized permission retrieval, Wrote API-doc/stress tests for KPI webapp (using JMeter).",
       descBullets: [
         "Dimare.io",
-        "ElasticSearch, JMeter, Docker",
+        "ReactJS, ImmutableJS, Django, OAuth2, ElasticSearch, JMeter, Docker",
         "@Tokyo, Japan (remote)"
       ]
     },
@@ -176,28 +176,44 @@ const bigProjects = {
   subtitle: "Companies, Products, Projects that I contributed to:",
   projects: [
     {
+      text: "Fusion Systems SWE Intern",
       image: require("./assets/images/fusion.png"),
       link: "https://www.fusionsystems.group/"
     },
     {
+      text: "Dimare SWE Intern",
       image: require("./assets/images/dimare.png"),
       link: "https://www.dimare.io/"
     },
     {
+      text: "Secured Apiserver using OAuth2 and Django rest_framework",
       image: require("./assets/images/dj.png"),
       link: "https://github.com/kl29/apiserver_oauth_and_rest_framework"
     },
     {
+      text: "Front-end site using Google Recaptcha v3, web form for Agile development club",
       image: require("./assets/images/gre.png"),
       link: "https://github.com/kl29/NextLevel-Labs-MVP-site-front-end"
     },
     {
+      text: "Handwritten Digit classification: using KNN algorithm and MNIST.pkl data",
       image: require("./assets/images/mnist.png"),
       link: "https://colab.research.google.com/drive/1SUabAEJhw7eaXeG3UwSXSoFgV2aNHDSp?usp=sharing"
     },
     {
+      text: "SVD of Images, using NumPy and MatPlotLib",
       image: require("./assets/images/svd.png"),
       link: "https://colab.research.google.com/drive/1pbkeLKSF79zZbsDsoQSZy5H9aUeqLM9I?usp=sharing"
+    },
+    {
+      text: "Recidivism Data Science R project",
+      image: require("./assets/images/r.png"),
+      link: "https://drive.google.com/file/d/1kof0H6oWWon46fcxUOiWHtyzAbiN-5Bf/view?usp=sharing"
+    },
+    {
+      text: "ICU patient survival predictions Data Science R project",
+      image: require("./assets/images/r.png"),
+      link: "https://drive.google.com/file/d/1BysXxpdXbO-VJAo9laJw_pS5yEeYCvXN/view?usp=sharing"
     },
   ]
 };
@@ -280,14 +296,14 @@ const podcastSection = {
   title: emoji("Podcast 🎙️"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
-  // Please Provide with Your Podcast embeded Link
+  // Please Provide with Your Podcast embedded Link
   podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"]
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Seeking Software Engineering Internship (Summer 2021)",
-  // number: "+92-3243454077",
+  number: "linkedin.com/in/kevin-lin-7386ab177/",
   email_address: "kl29@princeton.edu"
 };
 
