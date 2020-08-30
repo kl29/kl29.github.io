@@ -31,7 +31,13 @@ const skillsSection = {
   skills: [
     emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
     emoji("⚡ Data analytics with Elasticsearch (ELK stack)"),
-    emoji("⚡ API stress-testing with Apache JMeter")
+    emoji("⚡ API stress-testing with Apache JMeter"),
+    emoji("⚡ Skills: 	Front End, Back End, Full Stack, Data Science"),
+    emoji("⚡ Programming Languages:	Python, Java, JavaScript ES6, C, R, Go, OCaml"),
+    emoji("⚡ Tools: 			Git, Bash, Slack, Docker, Postico, Postman, Elastic Stack, Colab Notebook, Blazemeter + Apache JMeter"),
+    emoji("⚡ Markup & Style:		HTML, CSS, LaTeX"),
+    emoji("⚡ Technologies: 		React (Router, Redux-Logic), Django, NumPy, PostgreSQL"),
+    emoji("⚡ Leadership: 		Eagle Scout, Toastmasters Competent Communicator, Club Tennis Captain"),
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -303,7 +309,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Seeking Software Engineering Internship (Summer 2021)",
-  number: "linkedin.com/in/kevin-lin-7386ab177/",
+  // number: "linkedin.com/in/kevin-lin-7386ab177/",
   email_address: "kl29@princeton.edu"
 };
 
